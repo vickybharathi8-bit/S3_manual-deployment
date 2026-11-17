@@ -129,7 +129,7 @@ function App() {
 
       <div className="page-content" id="dashboard">
         <section className="page-heading">
-          <div><div className="eyebrow">FRIDAY, YOUR SERVICE DESK</div><h1>Good morning, Admin <span>✦</span></h1><p>Here's what's happening with your support requests today.</p></div>
+          <div><div className="eyebrow">FRIDAY, YOUR SERVICE DESK · JENKINS DEPLOYMENT</div><h1>Good morning, Admin <span>✦</span></h1><p>Here's what's happening with your support requests today.</p></div>
           <div className="heading-actions"><button className="button button-light" onClick={load}><RefreshCw size={16}/> Refresh</button><button className="button button-primary" onClick={() => setShowModal(true)}><Plus size={17}/> New ticket</button></div>
         </section>
 
